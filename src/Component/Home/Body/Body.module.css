@@ -1,0 +1,34 @@
+section{
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+section .wrapper{
+    max-width: 700px;
+    padding: 32px;
+    margin: 0 auto;
+}
+.scroll{
+    position: sticky;
+    width: 200px;
+    height: calc(100vh - 40px);
+    top: 100px;
+    margin-right: 440px;
+    color: white;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+h1{
+    font-size: 62px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.scroll a.active::after{
+    
+}
